@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NoibuSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CommonCrypto
+import Foundation
+import PhotosUI
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _PhotosUI_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+import zlib
+@objc(NoibuConfig) public class NoibuConfig : ObjectiveC.NSObject {
+  @objc public var onMobileEventTransformed: ((_ transformedProperties: Swift.String) -> Swift.Void)?
+  @objc public var debug: Swift.Bool
+  public static let host: Swift.String
+  @objc final public let sessionReplayConfig: NoibuSDK.NoibuSessionReplayConfig
+  @objc(apiKey:) public init(apiKey: Swift.String)
+  @objc(apiKey:host:) public init(apiKey: Swift.String, host: Swift.String = host)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(NoibuSDKManager) public class NoibuSDKManager : ObjectiveC.NSObject {
+  @objc nonisolated(unsafe) public static let shared: NoibuSDK.NoibuSDKManager
+  @objc deinit
+  @objc public func setup(_ config: NoibuSDK.NoibuConfig)
+  @objc public func startSession()
+  @objc public func endSession()
+}
+@_inheritsConvenienceInitializers @objc(NoibuSessionReplayConfig) public class NoibuSessionReplayConfig : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector, new: ObjectiveC.Selector)

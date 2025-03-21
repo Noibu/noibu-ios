@@ -1,0 +1,4 @@
+framework module NoibuSDK {
+  header "NoibuSDK-Swift.h"
+  requires objc
+}
