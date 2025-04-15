@@ -2531,56 +2531,49 @@
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 497,
+      "offset": 368,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1100,
+      "offset": 971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1142,
+      "offset": 1013,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1181,
+      "offset": 1052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1324,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1494,
-      "length": 51,
-      "value": "\"✅ NoibuSDK.shared instance is being initialized\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1680,
+      "offset": 1195,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7404,
+      "offset": 1484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7208,
       "length": 4,
       "value": "true"
     },
@@ -2790,14 +2783,14 @@
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/UIImage+Util.swift",
       "kind": "FloatLiteral",
-      "offset": 1866,
+      "offset": 1796,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/UIImage+Util.swift",
       "kind": "FloatLiteral",
-      "offset": 3052,
+      "offset": 2936,
       "length": 3,
       "value": "0.3"
     },
@@ -3098,21 +3091,21 @@
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
-      "offset": 28965,
+      "offset": 29636,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
-      "offset": 29004,
+      "offset": 29675,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
-      "offset": 29048,
+      "offset": 29719,
       "length": 1,
       "value": "5"
     }
