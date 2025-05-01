@@ -317,6 +317,22 @@ SWIFT_CLASS_NAMED("NoibuConfig")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class NSData;
+
+SWIFT_CLASS("_TtC8NoibuSDK16NoibuImageHasher")
+@interface NoibuImageHasher : NSObject
++ (NSString * _Nonnull)calculateHash:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8NoibuSDK15NoibuImageSaver")
+@interface NoibuImageSaver : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
++ (void)save:(NSString * _Nonnull)hash :(NSData * _Nonnull)data;
+@end
+
 
 SWIFT_CLASS_NAMED("NoibuSDKManager")
 @interface NoibuSDKManager : NSObject
@@ -696,6 +712,22 @@ SWIFT_CLASS_NAMED("NoibuConfig")
 - (nonnull instancetype)apiKey:(NSString * _Nonnull)apiKey host:(NSString * _Nonnull)host OBJC_DESIGNATED_INITIALIZER SWIFT_METHOD_FAMILY(init);
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSData;
+
+SWIFT_CLASS("_TtC8NoibuSDK16NoibuImageHasher")
+@interface NoibuImageHasher : NSObject
++ (NSString * _Nonnull)calculateHash:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8NoibuSDK15NoibuImageSaver")
+@interface NoibuImageSaver : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
++ (void)save:(NSString * _Nonnull)hash :(NSData * _Nonnull)data;
 @end
 
 
