@@ -2140,32 +2140,32 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImagesService.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 49,
-      "length": 69,
-      "value": "\"https:\/\/storage.googleapis.com\/noibu-customer-session-mobile-assets\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImagesService.swift",
-      "kind": "StringLiteral",
-      "offset": 136,
-      "length": 12,
-      "value": "\"ios\/images\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImagesService.swift",
-      "kind": "StringLiteral",
-      "offset": 227,
+      "offset": 115,
       "length": 33,
       "value": "\"https:\/\/mobile-assets.noibu.com\""
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImagesService.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 330,
-      "length": 32,
-      "value": "\"com.noibu.imageProcessingQueue\""
+      "offset": 200,
+      "length": 25,
+      "value": "\"\/iosproject\/check-asset\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 19,
+      "value": "\"com.noibu.imageIO\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 511,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAPI.swift",
@@ -2863,7 +2863,7 @@
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7208,
+      "offset": 7185,
       "length": 4,
       "value": "true"
     },
@@ -3206,14 +3206,14 @@
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuImageFolder.swift",
       "kind": "StringLiteral",
-      "offset": 253,
+      "offset": 262,
       "length": 8,
       "value": "\"images\""
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuImageFolder.swift",
       "kind": "BooleanLiteral",
-      "offset": 276,
+      "offset": 285,
       "length": 4,
       "value": "true"
     },
