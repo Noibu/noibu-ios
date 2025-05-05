@@ -321,7 +321,7 @@ SWIFT_CLASS_NAMED("NoibuConfig")
 
 SWIFT_CLASS("_TtC8NoibuSDK16NoibuImageHasher")
 @interface NoibuImageHasher : NSObject
-+ (NSString * _Nonnull)calculateHash:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)calculateMD5Base64:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -718,7 +718,7 @@ SWIFT_CLASS_NAMED("NoibuConfig")
 
 SWIFT_CLASS("_TtC8NoibuSDK16NoibuImageHasher")
 @interface NoibuImageHasher : NSObject
-+ (NSString * _Nonnull)calculateHash:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)calculateMD5Base64:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
