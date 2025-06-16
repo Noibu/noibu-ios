@@ -43,13 +43,6 @@
       },
       {
         "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1240,8 +1233,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "calculateMD5Base64",
-            "printedName": "calculateMD5Base64(_:)",
+            "name": "calculateHash",
+            "printedName": "calculateHash(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1257,8 +1250,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@NoibuSDK@objc(cs)NoibuImageHasher(cm)calculateMD5Base64:",
-            "mangledName": "$s8NoibuSDK0A11ImageHasherC18calculateMD5Base64ySS10Foundation4DataVFZ",
+            "usr": "c:@M@NoibuSDK@objc(cs)NoibuImageHasher(cm)calculateHash:",
+            "mangledName": "$s8NoibuSDK0A11ImageHasherC13calculateHashySS10Foundation4DataVFZ",
             "moduleName": "NoibuSDK",
             "static": true,
             "declAttributes": [
@@ -1730,6 +1723,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SystemConfiguration",
         "printedName": "SystemConfiguration",
         "declKind": "Import",
@@ -2116,1332 +2119,1311 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImagesService.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 69,
-      "length": 69,
-      "value": "\"https:\/\/storage.googleapis.com\/noibu-customer-session-mobile-assets\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImagesService.swift",
-      "kind": "StringLiteral",
-      "offset": 156,
-      "length": 12,
-      "value": "\"ios\/images\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImagesService.swift",
-      "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 114,
       "length": 33,
       "value": "\"https:\/\/mobile-assets.noibu.com\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImagesService.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 352,
-      "length": 32,
-      "value": "\"com.noibu.imageProcessingQueue\""
+      "offset": 196,
+      "length": 25,
+      "value": "\"\/iosproject\/check-asset\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAPI.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 19,
+      "value": "\"com.noibu.imageIO\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 580,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 678,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAPI.swift",
       "kind": "IntegerLiteral",
       "offset": 235,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1563,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 15189,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "FloatLiteral",
       "offset": 15850,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17190,
       "length": 10,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17199,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "FloatLiteral",
       "offset": 17291,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17417,
       "length": 10,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17426,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17580,
       "length": 9,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17588,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 17676,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17709,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17958,
       "length": 20,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17968,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 17977,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 18166,
       "length": 27,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 18176,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 18192,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19529,
       "length": 15,
       "value": "\"value_changed\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19570,
       "length": 8,
       "value": "\"submit\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19604,
       "length": 8,
       "value": "\"toggle\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19645,
       "length": 16,
       "value": "\"primary_action\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19691,
       "length": 13,
       "value": "\"menu_action\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19730,
       "length": 8,
       "value": "\"change\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19764,
       "length": 7,
       "value": "\"touch\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19796,
       "length": 7,
       "value": "\"swipe\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19828,
       "length": 7,
       "value": "\"pinch\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19858,
       "length": 5,
       "value": "\"pan\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19889,
       "length": 8,
       "value": "\"scroll\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19925,
       "length": 10,
       "value": "\"rotation\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
       "kind": "StringLiteral",
       "offset": 19964,
       "length": 12,
       "value": "\"long_press\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureIntegration.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 3,
       "value": "\";\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureIntegration.swift",
       "kind": "Dictionary",
       "offset": 472,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 239,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 261,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 354,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 430,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 484,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 575,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 623,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 685,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 731,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 878,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 933,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 974,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1009,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "StringLiteral",
       "offset": 1295,
       "length": 5,
       "value": "\"\/s\/\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "StringLiteral",
       "offset": 1339,
       "length": 24,
       "value": "\"https:\/\/us.i.Noibu.com\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1401,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1530,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1580,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "Dictionary",
       "offset": 402,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 574,
       "length": 11,
       "value": "\"$app_name\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 693,
       "length": 11,
       "value": "\"$app_name\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 14,
       "value": "\"$app_version\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 950,
       "length": 12,
       "value": "\"$app_build\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1066,
       "length": 16,
       "value": "\"$app_namespace\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1144,
       "length": 22,
       "value": "\"$device_manufacturer\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1170,
       "length": 7,
       "value": "\"Apple\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1197,
       "length": 15,
       "value": "\"$device_model\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1288,
       "length": 14,
       "value": "\"$is_emulator\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "BooleanLiteral",
       "offset": 1306,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1479,
       "length": 14,
       "value": "\"$device_name\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1529,
       "length": 10,
       "value": "\"$os_name\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1580,
       "length": 13,
       "value": "\"$os_version\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1768,
       "length": 8,
       "value": "\"Mobile\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1841,
       "length": 8,
       "value": "\"Tablet\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1913,
       "length": 4,
       "value": "\"TV\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 1986,
       "length": 9,
       "value": "\"CarPlay\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 2060,
       "length": 9,
       "value": "\"Desktop\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 2180,
       "length": 14,
       "value": "\"$device_type\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "Dictionary",
       "offset": 2540,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 2560,
       "length": 6,
       "value": "\"$lib\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
       "kind": "StringLiteral",
       "offset": 2599,
       "length": 14,
       "value": "\"$lib_version\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuFeatureFlags.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuFeatureFlags.swift",
       "kind": "BooleanLiteral",
       "offset": 366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuFeatureFlags.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuFeatureFlags.swift",
       "kind": "BooleanLiteral",
       "offset": 414,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuFeatureFlags.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuFeatureFlags.swift",
       "kind": "StringLiteral",
       "offset": 572,
       "length": 24,
       "value": "\"com.Noibu.FeatureFlags\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuMaskViewModifier.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuMaskViewModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 164,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuPersonProfiles.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuPersonProfiles.swift",
       "kind": "IntegerLiteral",
       "offset": 192,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuPersonProfiles.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuPersonProfiles.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 14,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
       "kind": "IntegerLiteral",
       "offset": 408,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
       "kind": "BooleanLiteral",
       "offset": 521,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
       "kind": "IntegerLiteral",
       "offset": 643,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
       "kind": "BooleanLiteral",
       "offset": 719,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDK+Notifications.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDK+Notifications.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 15,
       "value": "\"NoibuDidStart\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDK+Notifications.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDK+Notifications.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 29,
       "value": "\"NoibuDidReceiveFeatureFlags\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "FloatLiteral",
       "offset": 128,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "FloatLiteral",
       "offset": 152,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
       "offset": 368,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
       "offset": 971,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1013,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1052,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1195,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1484,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7208,
+      "offset": 7625,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 505,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 510,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 241,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 288,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 343,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 659,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 712,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 756,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
       "kind": "FloatLiteral",
       "offset": 812,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 712,
       "length": 18,
       "value": "\"Noibu.distinctId\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 758,
       "length": 19,
       "value": "\"Noibu.anonymousId\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 799,
       "length": 19,
       "value": "\"Noibu.queueFolder\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 887,
       "length": 19,
       "value": "\"Noibu.queue.plist\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 935,
       "length": 20,
       "value": "\"Noibu.replayFolder\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 27,
       "value": "\"Noibu.enabledFeatureFlags\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 1061,
       "length": 34,
       "value": "\"Noibu.enabledFeatureFlagPayloads\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 14,
       "value": "\"Noibu.groups\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 1167,
       "length": 26,
       "value": "\"Noibu.registerProperties\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 1216,
       "length": 14,
       "value": "\"Noibu.optOut\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 1260,
       "length": 21,
       "value": "\"Noibu.sessionReplay\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 1310,
       "length": 20,
       "value": "\"Noibu.isIdentified\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
       "kind": "StringLiteral",
       "offset": 1370,
       "length": 31,
       "value": "\"Noibu.enabledPersonProcessing\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorageManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorageManager.swift",
       "kind": "BooleanLiteral",
       "offset": 467,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorageManager.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorageManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4059,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuVersion.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuVersion.swift",
       "kind": "StringLiteral",
       "offset": 121,
       "length": 7,
       "value": "\"0.0.1\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuVersion.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuVersion.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 11,
       "value": "\"Noibu-ios\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ViewLayoutTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ViewLayoutTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 186,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ViewLayoutTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ViewLayoutTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 229,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
       "kind": "StringLiteral",
-      "offset": 224,
-      "length": 8,
-      "value": "\"images\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 247,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 356,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
-      "kind": "StringLiteral",
-      "offset": 401,
-      "length": 65,
-      "value": "\"Failed to create image directory: \""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
-      "kind": "StringLiteral",
-      "offset": 465,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
-      "kind": "StringLiteral",
-      "offset": 617,
-      "length": 26,
-      "value": "\"com.noibu.imageHashQueue\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
-      "kind": "StringLiteral",
-      "offset": 829,
+      "offset": 210,
       "length": 26,
       "value": "\"com.noibu.imageSaveQueue\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
-      "kind": "IntegerLiteral",
-      "offset": 945,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
       "kind": "IntegerLiteral",
       "offset": 152,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 176,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 212,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 250,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 285,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Network\/NetworkSample.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/NetworkSample.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 10,
       "value": "\"resource\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Network\/NetworkSample.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/NetworkSample.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 7,
       "value": "\"fetch\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionInterceptor.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionInterceptor.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 33,
       "value": "\"com.Noibu.URLSessionInterceptor\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionInterceptor.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionInterceptor.swift",
       "kind": "Dictionary",
       "offset": 550,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionSwizzler.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionSwizzler.swift",
       "kind": "BooleanLiteral",
       "offset": 867,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
       "kind": "IntegerLiteral",
       "offset": 3793,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
       "kind": "IntegerLiteral",
       "offset": 6708,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
       "kind": "IntegerLiteral",
       "offset": 9621,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
       "kind": "IntegerLiteral",
       "offset": 9626,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/MethodSwizzler.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/MethodSwizzler.swift",
       "kind": "Dictionary",
       "offset": 1041,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuLog.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuImageFolder.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 8,
+      "value": "\"images\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuImageFolder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 285,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuLog.swift",
       "kind": "BooleanLiteral",
       "offset": 120,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 635,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1850,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 2830,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 325,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 335,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 379,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/UIApplication.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/UIApplication.swift",
       "kind": "BooleanLiteral",
       "offset": 184,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/UIApplicationTracker.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/UIApplicationTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 188,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "Array",
       "offset": 2832,
       "length": 37,
       "value": "[\"SwiftUI.ImageLayer\"]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "Array",
       "offset": 2994,
       "length": 172,
       "value": "[\"SwiftUI.CGDrawingView\", \"SwiftUI.TextEditorTextView\", \"SwiftUI.VerticalTextView\"]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "Array",
       "offset": 3240,
       "length": 91,
       "value": "[\"_TtC7SwiftUIP33_A34643117F00277B93DEBAB70EC0697122_UIShapeHitTestingView\"]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
       "offset": 3434,
       "length": 13,
       "value": "\"RCTTextView\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
       "offset": 3517,
       "length": 14,
       "value": "\"RCTImageView\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
       "offset": 3599,
       "length": 14,
       "value": "\"RNSVGSvgView\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
       "offset": 3692,
       "length": 24,
       "value": "\"RCTUIImageViewAnimated\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
       "offset": 3786,
       "length": 21,
       "value": "\"SDAnimatedImageView\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
       "offset": 3872,
       "length": 9,
       "value": "\"RCTView\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
       "offset": 4052,
       "length": 15,
       "value": "\"_UIRemoteView\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "Array",
       "offset": 4190,
       "length": 105,
       "value": "[\"SwiftUI.GradientLayer\"]"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
       "offset": 4489,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
       "offset": 4526,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
       "offset": 4568,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
       "offset": 4645,
       "length": 34,
       "value": "\"com.Noibu.NoibuReplayIntegration\""
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
-      "offset": 30141,
+      "offset": 29843,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
-      "offset": 30180,
+      "offset": 29882,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/jayven\/Downloads\/unicron-850c2ede14265988fec098a7324d2c7e451e293a\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
-      "offset": 30224,
+      "offset": 29926,
       "length": 1,
       "value": "5"
     }

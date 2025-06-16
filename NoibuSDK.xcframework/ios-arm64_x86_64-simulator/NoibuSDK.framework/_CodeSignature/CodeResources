@@ -10,19 +10,19 @@
 		</data>
 		<key>Headers/NoibuSDK-Swift.h</key>
 		<data>
-		MtiqKrO/IRVSsvjB9fNMY54UTqM=
+		xT4VAQk1gRb5CP9rxfuHXfrhD0I=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y+vFXq8fnHIuyIf1L03HGMVYSas=
+		aB+vO6+h4VxO0r7a35Ztgnzt4GE=
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6muKbEAR8qVYWrzJWUQhwmrE8ak=
+		GTgPf5glxn6tKwnMSj1hNXXQYjQ=
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kEhTq+8LabqpBHh8Tsq2RbyHEGI=
+		GBmcCltQjKgeXbWyenhMEM5nKTU=
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kEhTq+8LabqpBHh8Tsq2RbyHEGI=
+		GBmcCltQjKgeXbWyenhMEM5nKTU=
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Tj3OBlwg4WzGngI9bCV4jzP2XzM=
+		5F/wEwETOQG2w9algmj0n/51Te8=
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6muKbEAR8qVYWrzJWUQhwmrE8ak=
+		GTgPf5glxn6tKwnMSj1hNXXQYjQ=
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yZlFo3OrxCTnMZoZQxHLlVytTos=
+		AGO8FhLHBpxoyTQCgPjB/dvjQy4=
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yZlFo3OrxCTnMZoZQxHLlVytTos=
+		AGO8FhLHBpxoyTQCgPjB/dvjQy4=
 		</data>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KHHrW7BMUyAsGMs4lmtNKIo8Ht8=
+		kH1++aRD1Spkg5SwF34Q9vIh6sI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,21 +74,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5ttoMV83yg7JZ+4xX2S0ahzJYipTsrpWkj+xt5MGZw=
+			yehN1vBjvasnTU7eruBTvntm6M5h1PKN7AptbDL7gso=
 			</data>
 		</dict>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qz3sceK7II2WIXXgMGf4DvR+xrW1jRvXLYsTXpSHjjo=
+			xpC8qpw6VhtM2hgLYIQkNi0EojqY0c92wL1Iks0FNFI=
 			</data>
 		</dict>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			55WS+soj+itR6j0x3dnHDROvkfSvg8Pc7a+2NX6/1Xg=
+			Ok8QmEfZGNOFyHopI+lIVFH3YEqAU3752abwAIwPgCk=
 			</data>
 		</dict>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			55WS+soj+itR6j0x3dnHDROvkfSvg8Pc7a+2NX6/1Xg=
+			Ok8QmEfZGNOFyHopI+lIVFH3YEqAU3752abwAIwPgCk=
 			</data>
 		</dict>
 		<key>Modules/NoibuSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JyPZYAPrGfjp6J3lANvf/p+8xfbrm2mMi/pja2RaV94=
+			cVC8XcoO4PLkzX8gqhLKPEmAQuS1Z/LvQiY9e84nkdw=
 			</data>
 		</dict>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qz3sceK7II2WIXXgMGf4DvR+xrW1jRvXLYsTXpSHjjo=
+			xpC8qpw6VhtM2hgLYIQkNi0EojqY0c92wL1Iks0FNFI=
 			</data>
 		</dict>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4Z02BpvEU2HplQbXeqvhY6n5Gi03KIQHpqAdWjkjcU=
+			OdvXGGzXdO1PqPZpAgExYf9rfaegwMmuYIbE6X4Wft8=
 			</data>
 		</dict>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4Z02BpvEU2HplQbXeqvhY6n5Gi03KIQHpqAdWjkjcU=
+			OdvXGGzXdO1PqPZpAgExYf9rfaegwMmuYIbE6X4Wft8=
 			</data>
 		</dict>
 		<key>Modules/NoibuSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X5Osqdjwb87NPvq1VfQ8FC1dcj6+c1z/M+YC/R6nHeA=
+			g122aDlhOkKg7OI8D3x0R7Yeodo5E+8fQOire8iCdto=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

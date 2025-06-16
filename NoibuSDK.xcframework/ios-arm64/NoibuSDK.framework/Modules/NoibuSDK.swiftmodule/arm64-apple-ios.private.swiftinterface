@@ -2,7 +2,6 @@
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NoibuSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
-import CommonCrypto
 import CryptoKit
 import Foundation
 import PhotosUI
@@ -38,7 +37,7 @@ import zlib
 }
 public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector, new: ObjectiveC.Selector)
 @_inheritsConvenienceInitializers @objc public class NoibuImageHasher : ObjectiveC.NSObject {
-  @objc public static func calculateMD5Base64(_ data: Foundation.Data) -> Swift.String
+  @objc public static func calculateHash(_ data: Foundation.Data) -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }

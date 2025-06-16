@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NoibuSDK"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "NoibuSDK"
   spec.description  = <<-DESC
   NoibuSDK provides session replay capabilities.
