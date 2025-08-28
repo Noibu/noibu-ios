@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NoibuSDK"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "NoibuSDK"
   spec.description  = <<-DESC
   NoibuSDK provides session replay capabilities.
@@ -12,4 +12,5 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
   spec.source       = { :git => "https://github.com/Noibu/noibu-ios.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "NoibuSDK.xcframework"
+  spec.resources    = "Noibu/WebViewToDOM/JS/*.{cjs,js}"
 end

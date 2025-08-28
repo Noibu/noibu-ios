@@ -15,80 +15,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "NoibuConfig",
         "printedName": "NoibuConfig",
@@ -627,6 +553,23 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "NoibuSDK",
         "declAttributes": [
           "RawDocComment"
@@ -646,6 +589,84 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "NoibuSDK",
         "declAttributes": [
@@ -696,6 +717,100 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "NoibuSDK",
         "declAttributes": [
@@ -944,6 +1059,822 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageStorageService",
+        "printedName": "ImageStorageService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageStorageService",
+                "printedName": "NoibuSDK.ImageStorageService",
+                "usr": "s:8NoibuSDK19ImageStorageServiceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NoibuSDK19ImageStorageServiceC6sharedACvpZ",
+            "mangledName": "$s8NoibuSDK19ImageStorageServiceC6sharedACvpZ",
+            "moduleName": "NoibuSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageStorageService",
+                    "printedName": "NoibuSDK.ImageStorageService",
+                    "usr": "s:8NoibuSDK19ImageStorageServiceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NoibuSDK19ImageStorageServiceC6sharedACvgZ",
+                "mangledName": "$s8NoibuSDK19ImageStorageServiceC6sharedACvgZ",
+                "moduleName": "NoibuSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NoibuSDK19ImageStorageServiceC5startyyYaF",
+            "mangledName": "$s8NoibuSDK19ImageStorageServiceC5startyyYaF",
+            "moduleName": "NoibuSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NoibuSDK19ImageStorageServiceC5startyyYaFZ",
+            "mangledName": "$s8NoibuSDK19ImageStorageServiceC5startyyYaFZ",
+            "moduleName": "NoibuSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NoibuSDK19ImageStorageServiceC15unownedExecutorScevp",
+            "mangledName": "$s8NoibuSDK19ImageStorageServiceC15unownedExecutorScevp",
+            "moduleName": "NoibuSDK",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NoibuSDK19ImageStorageServiceC15unownedExecutorScevg",
+                "mangledName": "$s8NoibuSDK19ImageStorageServiceC15unownedExecutorScevg",
+                "moduleName": "NoibuSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8NoibuSDK19ImageStorageServiceC",
+        "mangledName": "$s8NoibuSDK19ImageStorageServiceC",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NoibuImageSaver",
+        "printedName": "NoibuImageSaver",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NoibuSDK@objc(cs)NoibuImageSaver(cm)save::",
+            "mangledName": "$s8NoibuSDK0A10ImageSaverC4saveyySS_10Foundation4DataVtFZ",
+            "moduleName": "NoibuSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NoibuSDK@objc(cs)NoibuImageSaver",
+        "mangledName": "$s8NoibuSDK0A10ImageSaverC",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "zlib",
+        "printedName": "zlib",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "mainSwizzle",
+        "printedName": "mainSwizzle(forClass:original:new:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ExistentialMetatype",
+            "printedName": "any AnyObject.Type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Selector",
+            "printedName": "ObjectiveC.Selector",
+            "usr": "s:10ObjectiveC8SelectorV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Selector",
+            "printedName": "ObjectiveC.Selector",
+            "usr": "s:10ObjectiveC8SelectorV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:8NoibuSDK11mainSwizzle8forClass8original3newyyXlXp_10ObjectiveC8SelectorVAHtF",
+        "mangledName": "$s8NoibuSDK11mainSwizzle8forClass8original3newyyXlXp_10ObjectiveC8SelectorVAHtF",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoibuSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "NoibuSDK",
         "declAttributes": [
           "RawDocComment"
@@ -1059,144 +1990,6 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Function",
-        "name": "mainSwizzle",
-        "printedName": "mainSwizzle(forClass:original:new:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "ExistentialMetatype",
-            "printedName": "any AnyObject.Type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "AnyObject"
-              }
-            ]
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Selector",
-            "printedName": "ObjectiveC.Selector",
-            "usr": "s:10ObjectiveC8SelectorV"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Selector",
-            "printedName": "ObjectiveC.Selector",
-            "usr": "s:10ObjectiveC8SelectorV"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:8NoibuSDK11mainSwizzle8forClass8original3newyyXlXp_10ObjectiveC8SelectorVAHtF",
-        "mangledName": "$s8NoibuSDK11mainSwizzle8forClass8original3newyyXlXp_10ObjectiveC8SelectorVAHtF",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -1372,135 +2165,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NoibuImageSaver",
-        "printedName": "NoibuImageSaver",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "save",
-            "printedName": "save(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@NoibuSDK@objc(cs)NoibuImageSaver(cm)save::",
-            "mangledName": "$s8NoibuSDK0A10ImageSaverC4saveyySS_10Foundation4DataVtFZ",
-            "moduleName": "NoibuSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@NoibuSDK@objc(cs)NoibuImageSaver",
-        "mangledName": "$s8NoibuSDK0A10ImageSaverC",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "NoibuSDK",
         "declAttributes": [
           "RawDocComment"
@@ -1527,370 +2191,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "zlib",
-        "printedName": "zlib",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SystemConfiguration",
-        "printedName": "SystemConfiguration",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PhotosUI",
-        "printedName": "PhotosUI",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NoibuSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "NoibuSDK"
       },
@@ -2093,17 +2393,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -2119,67 +2419,137 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 171,
-      "length": 1,
-      "value": "0"
+      "offset": 239,
+      "length": 8,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 209,
-      "length": 1,
-      "value": "0"
+      "offset": 261,
+      "length": 3,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 243,
-      "length": 1,
-      "value": "0"
+      "offset": 354,
+      "length": 2,
+      "value": "20"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
-      "kind": "StringLiteral",
-      "offset": 114,
-      "length": 33,
-      "value": "\"https:\/\/mobile-assets.noibu.com\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
-      "kind": "StringLiteral",
-      "offset": 196,
-      "length": 25,
-      "value": "\"\/iosproject\/check-asset\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
-      "kind": "StringLiteral",
-      "offset": 307,
-      "length": 19,
-      "value": "\"com.noibu.imageIO\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 580,
+      "offset": 391,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 430,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 620,
+      "offset": 575,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 678,
+      "offset": 623,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 685,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 731,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 911,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 952,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 987,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 5,
+      "value": "\"\/s\/\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1317,
+      "length": 24,
+      "value": "\"https:\/\/us.i.Noibu.com\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1379,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1508,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1558,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/UIApplication.swift",
+      "kind": "BooleanLiteral",
+      "offset": 184,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAPI.swift",
@@ -2187,6 +2557,783 @@
       "offset": 235,
       "length": 2,
       "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 521,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 719,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ViewLayoutTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 186,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ViewLayoutTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 229,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "kind": "IntegerLiteral",
+      "offset": 152,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "kind": "IntegerLiteral",
+      "offset": 196,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 33,
+      "value": "\"ReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 21,
+      "value": "\"reachabilityChanged\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1850,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuMaskViewModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 164,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorageManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 467,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorageManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4059,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionSwizzler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/MethodSwizzler.swift",
+      "kind": "Dictionary",
+      "offset": 1041,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 133,
+      "length": 24,
+      "value": "\"WebViewEventsFinalized\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 478,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 516,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 35,
+      "value": "\"com.Noibu.SessionRecorder.storage\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 1508,
+      "length": 4,
+      "value": "\"js\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionRecorder.swift",
+      "kind": "StringLiteral",
+      "offset": 8380,
+      "length": 9,
+      "value": "\"dismiss\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "Dictionary",
+      "offset": 402,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 11,
+      "value": "\"$app_name\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
+      "length": 21,
+      "value": "\"CFBundleDisplayName\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 11,
+      "value": "\"$app_name\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 14,
+      "value": "\"$app_version\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 950,
+      "length": 12,
+      "value": "\"$app_build\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1066,
+      "length": 16,
+      "value": "\"$app_namespace\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1144,
+      "length": 22,
+      "value": "\"$device_manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1170,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 15,
+      "value": "\"$device_model\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1288,
+      "length": 14,
+      "value": "\"$is_emulator\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1306,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1479,
+      "length": 14,
+      "value": "\"$device_name\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1529,
+      "length": 10,
+      "value": "\"$os_name\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1580,
+      "length": 13,
+      "value": "\"$os_version\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1768,
+      "length": 8,
+      "value": "\"Mobile\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1841,
+      "length": 8,
+      "value": "\"Tablet\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1913,
+      "length": 4,
+      "value": "\"TV\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 1986,
+      "length": 9,
+      "value": "\"CarPlay\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 2060,
+      "length": 9,
+      "value": "\"Desktop\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 2180,
+      "length": 14,
+      "value": "\"$device_type\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "Dictionary",
+      "offset": 2540,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 2560,
+      "length": 6,
+      "value": "\"$lib\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "kind": "StringLiteral",
+      "offset": 2599,
+      "length": 14,
+      "value": "\"$lib_version\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 505,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 3,
+      "value": "\";\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureIntegration.swift",
+      "kind": "Dictionary",
+      "offset": 472,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 128,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 152,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 368,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 971,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1013,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1052,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1195,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7688,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 335,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 33,
+      "value": "\"https:\/\/mobile-assets.noibu.com\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "Array",
+      "offset": 518,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 609,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ImageStorageService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 121,
+      "length": 7,
+      "value": "\"0.0.1\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 11,
+      "value": "\"Noibu-ios\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 120,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WKWebViewTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 277,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WKWebViewTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 28,
+      "value": "\"com.Noibu.WKWebViewTracker\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 18,
+      "value": "\"Noibu.distinctId\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 19,
+      "value": "\"Noibu.anonymousId\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 19,
+      "value": "\"Noibu.queueFolder\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 19,
+      "value": "\"Noibu.queue.plist\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 20,
+      "value": "\"Noibu.replayFolder\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 29,
+      "value": "\"Noibu.webViewSessionsFolder\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 27,
+      "value": "\"Noibu.enabledFeatureFlags\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1122,
+      "length": 34,
+      "value": "\"Noibu.enabledFeatureFlagPayloads\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1179,
+      "length": 14,
+      "value": "\"Noibu.groups\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 26,
+      "value": "\"Noibu.registerProperties\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 14,
+      "value": "\"Noibu.optOut\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1321,
+      "length": 21,
+      "value": "\"Noibu.sessionReplay\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 20,
+      "value": "\"Noibu.isIdentified\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1431,
+      "length": 31,
+      "value": "\"Noibu.enabledPersonProcessing\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionInterceptor.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 33,
+      "value": "\"com.Noibu.URLSessionInterceptor\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionInterceptor.swift",
+      "kind": "Dictionary",
+      "offset": 550,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 26,
+      "value": "\"com.noibu.imageSaveQueue\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewIntegration.swift",
+      "kind": "Dictionary",
+      "offset": 360,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewIntegration.swift",
+      "kind": "Dictionary",
+      "offset": 448,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 30,
+      "value": "\"com.Noibu.WebViewIntegration\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewIntegration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 680,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
+      "kind": "BooleanLiteral",
+      "offset": 176,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
+      "kind": "BooleanLiteral",
+      "offset": 212,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
+      "kind": "BooleanLiteral",
+      "offset": 250,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
+      "kind": "BooleanLiteral",
+      "offset": 285,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3793,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6708,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9621,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9626,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/UIApplicationTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 188,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/EventHydrationProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 35,
+      "value": "\"com.Noibu.EventHydrationProcessor\""
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureEventTracker.swift",
@@ -2406,333 +3553,207 @@
       "value": "\"long_press\""
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDK+Notifications.swift",
       "kind": "StringLiteral",
-      "offset": 315,
-      "length": 3,
-      "value": "\";\""
+      "offset": 202,
+      "length": 15,
+      "value": "\"NoibuDidStart\""
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuAutocaptureIntegration.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDK+Notifications.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 29,
+      "value": "\"NoibuDidReceiveFeatureFlags\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "Dictionary",
-      "offset": 472,
+      "offset": 571,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 261,
-      "length": 3,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 354,
+      "offset": 612,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 430,
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "Array",
+      "offset": 782,
       "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 484,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 575,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 623,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 685,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 731,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 878,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 933,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 974,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1009,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 1295,
-      "length": 5,
-      "value": "\"\/s\/\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 1339,
-      "length": 24,
-      "value": "\"https:\/\/us.i.Noibu.com\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1401,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1530,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1580,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "Dictionary",
-      "offset": 402,
-      "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 574,
-      "length": 11,
-      "value": "\"$app_name\""
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "Array",
+      "offset": 3379,
+      "length": 37,
+      "value": "[\"SwiftUI.ImageLayer\"]"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 645,
-      "length": 21,
-      "value": "\"CFBundleDisplayName\""
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "Array",
+      "offset": 3541,
+      "length": 172,
+      "value": "[\"SwiftUI.CGDrawingView\", \"SwiftUI.TextEditorTextView\", \"SwiftUI.VerticalTextView\"]"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 693,
-      "length": 11,
-      "value": "\"$app_name\""
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "Array",
+      "offset": 3787,
+      "length": 91,
+      "value": "[\"_TtC7SwiftUIP33_A34643117F00277B93DEBAB70EC0697122_UIShapeHitTestingView\"]"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
-      "offset": 770,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 825,
-      "length": 14,
-      "value": "\"$app_version\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 906,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 950,
-      "length": 12,
-      "value": "\"$app_build\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1066,
-      "length": 16,
-      "value": "\"$app_namespace\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1144,
-      "length": 22,
-      "value": "\"$device_manufacturer\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1170,
-      "length": 7,
-      "value": "\"Apple\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1197,
-      "length": 15,
-      "value": "\"$device_model\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1288,
-      "length": 14,
-      "value": "\"$is_emulator\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1306,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1479,
-      "length": 14,
-      "value": "\"$device_name\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1529,
-      "length": 10,
-      "value": "\"$os_name\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1580,
+      "offset": 3981,
       "length": 13,
-      "value": "\"$os_version\""
+      "value": "\"RCTTextView\""
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
-      "length": 8,
-      "value": "\"Mobile\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1841,
-      "length": 8,
-      "value": "\"Tablet\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1913,
-      "length": 4,
-      "value": "\"TV\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1986,
-      "length": 9,
-      "value": "\"CarPlay\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 2060,
-      "length": 9,
-      "value": "\"Desktop\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 2180,
+      "offset": 4064,
       "length": 14,
-      "value": "\"$device_type\""
+      "value": "\"RCTImageView\""
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "Dictionary",
-      "offset": 2540,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
       "kind": "StringLiteral",
-      "offset": 2560,
+      "offset": 4146,
+      "length": 14,
+      "value": "\"RNSVGSvgView\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 4239,
+      "length": 24,
+      "value": "\"RCTUIImageViewAnimated\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 4333,
+      "length": 21,
+      "value": "\"SDAnimatedImageView\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 4419,
+      "length": 9,
+      "value": "\"RCTView\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 4599,
+      "length": 15,
+      "value": "\"_UIRemoteView\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "Array",
+      "offset": 4737,
+      "length": 105,
+      "value": "[\"SwiftUI.GradientLayer\"]"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 4930,
+      "length": 34,
+      "value": "\"com.Noibu.NoibuReplayIntegration\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 171,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 209,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/AssociatedKeys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuPersonProfiles.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
       "length": 6,
-      "value": "\"$lib\""
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuContext.swift",
-      "kind": "StringLiteral",
-      "offset": 2599,
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuPersonProfiles.swift",
+      "kind": "IntegerLiteral",
+      "offset": 208,
       "length": 14,
-      "value": "\"$lib_version\""
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuImageFolder.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 8,
+      "value": "\"images\""
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuImageFolder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 261,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 327,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 481,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewSessionState.swift",
+      "kind": "Array",
+      "offset": 600,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuFeatureFlags.swift",
@@ -2754,146 +3775,6 @@
       "offset": 572,
       "length": 24,
       "value": "\"com.Noibu.FeatureFlags\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuMaskViewModifier.swift",
-      "kind": "BooleanLiteral",
-      "offset": 164,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuPersonProfiles.swift",
-      "kind": "IntegerLiteral",
-      "offset": 192,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuPersonProfiles.swift",
-      "kind": "IntegerLiteral",
-      "offset": 208,
-      "length": 14,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
-      "kind": "IntegerLiteral",
-      "offset": 408,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
-      "kind": "BooleanLiteral",
-      "offset": 521,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
-      "kind": "IntegerLiteral",
-      "offset": 643,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuQueue.swift",
-      "kind": "BooleanLiteral",
-      "offset": 719,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDK+Notifications.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 15,
-      "value": "\"NoibuDidStart\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDK+Notifications.swift",
-      "kind": "StringLiteral",
-      "offset": 283,
-      "length": 29,
-      "value": "\"NoibuDidReceiveFeatureFlags\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 128,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 152,
-      "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 368,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 971,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1013,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1052,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1195,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1484,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSDKManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7625,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 505,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 510,
-      "length": 2,
-      "value": "30"
     },
     {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuSessionReplayConfig.swift",
@@ -2945,209 +3826,6 @@
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 712,
-      "length": 18,
-      "value": "\"Noibu.distinctId\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 758,
-      "length": 19,
-      "value": "\"Noibu.anonymousId\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 799,
-      "length": 19,
-      "value": "\"Noibu.queueFolder\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 887,
-      "length": 19,
-      "value": "\"Noibu.queue.plist\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 935,
-      "length": 20,
-      "value": "\"Noibu.replayFolder\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 991,
-      "length": 27,
-      "value": "\"Noibu.enabledFeatureFlags\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1061,
-      "length": 34,
-      "value": "\"Noibu.enabledFeatureFlagPayloads\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1118,
-      "length": 14,
-      "value": "\"Noibu.groups\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1167,
-      "length": 26,
-      "value": "\"Noibu.registerProperties\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1216,
-      "length": 14,
-      "value": "\"Noibu.optOut\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1260,
-      "length": 21,
-      "value": "\"Noibu.sessionReplay\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1310,
-      "length": 20,
-      "value": "\"Noibu.isIdentified\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1370,
-      "length": 31,
-      "value": "\"Noibu.enabledPersonProcessing\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorageManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 467,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuStorageManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4059,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuVersion.swift",
-      "kind": "StringLiteral",
-      "offset": 121,
-      "length": 7,
-      "value": "\"0.0.1\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/NoibuVersion.swift",
-      "kind": "StringLiteral",
-      "offset": 152,
-      "length": 11,
-      "value": "\"Noibu-ios\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ViewLayoutTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 186,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Client\/ViewLayoutTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 229,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Extensions\/NoibuImageSaver.swift",
-      "kind": "StringLiteral",
-      "offset": 210,
-      "length": 26,
-      "value": "\"com.noibu.imageSaveQueue\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
-      "kind": "IntegerLiteral",
-      "offset": 152,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
-      "kind": "IntegerLiteral",
-      "offset": 174,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
-      "kind": "IntegerLiteral",
-      "offset": 219,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/RRWireframe.swift",
-      "kind": "IntegerLiteral",
-      "offset": 243,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
-      "kind": "BooleanLiteral",
-      "offset": 176,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
-      "kind": "BooleanLiteral",
-      "offset": 212,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
-      "kind": "BooleanLiteral",
-      "offset": 250,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Models\/ViewTreeSnapshotStatus.swift",
-      "kind": "BooleanLiteral",
-      "offset": 285,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/NetworkSample.swift",
       "kind": "StringLiteral",
       "offset": 171,
@@ -3162,270 +3840,11 @@
       "value": "\"fetch\""
     },
     {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionInterceptor.swift",
+      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/WebViewToDOM\/WebViewEventStore.swift",
       "kind": "StringLiteral",
-      "offset": 418,
-      "length": 33,
-      "value": "\"com.Noibu.URLSessionInterceptor\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionInterceptor.swift",
-      "kind": "Dictionary",
-      "offset": 550,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Network\/URLSessionSwizzler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 867,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3793,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6708,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9621,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Data+Gzip.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9626,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/MethodSwizzler.swift",
-      "kind": "Dictionary",
-      "offset": 1041,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuImageFolder.swift",
-      "kind": "StringLiteral",
-      "offset": 262,
-      "length": 8,
-      "value": "\"images\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuImageFolder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 285,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/NoibuLog.swift",
-      "kind": "BooleanLiteral",
-      "offset": 120,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 33,
-      "value": "\"ReachabilityChangedNotification\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 21,
-      "value": "\"reachabilityChanged\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1850,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/Reachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2830,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 325,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 335,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/TimeBasedEpochGenerator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/UIApplication.swift",
-      "kind": "BooleanLiteral",
-      "offset": 184,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Utils\/UIApplicationTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 188,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "Array",
-      "offset": 2832,
-      "length": 37,
-      "value": "[\"SwiftUI.ImageLayer\"]"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "Array",
-      "offset": 2994,
-      "length": 172,
-      "value": "[\"SwiftUI.CGDrawingView\", \"SwiftUI.TextEditorTextView\", \"SwiftUI.VerticalTextView\"]"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "Array",
-      "offset": 3240,
-      "length": 91,
-      "value": "[\"_TtC7SwiftUIP33_A34643117F00277B93DEBAB70EC0697122_UIShapeHitTestingView\"]"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 3434,
-      "length": 13,
-      "value": "\"RCTTextView\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 3517,
-      "length": 14,
-      "value": "\"RCTImageView\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 3599,
-      "length": 14,
-      "value": "\"RNSVGSvgView\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 3692,
-      "length": 24,
-      "value": "\"RCTUIImageViewAnimated\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 3786,
-      "length": 21,
-      "value": "\"SDAnimatedImageView\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 3872,
-      "length": 9,
-      "value": "\"RCTView\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 4052,
-      "length": 15,
-      "value": "\"_UIRemoteView\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "Array",
-      "offset": 4190,
-      "length": 105,
-      "value": "[\"SwiftUI.GradientLayer\"]"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4489,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4526,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4568,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 4645,
-      "length": 34,
-      "value": "\"com.Noibu.NoibuReplayIntegration\""
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 29843,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 29882,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/jayven\/Documents\/GitHub\/unicron\/public_sdk\/ios\/Noibu\/Noibu\/Wrapper\/NoibuReplayIntegration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 29926,
-      "length": 1,
-      "value": "5"
+      "offset": 249,
+      "length": 20,
+      "value": "\"NoibuWebViewEvents\""
     }
   ]
 }

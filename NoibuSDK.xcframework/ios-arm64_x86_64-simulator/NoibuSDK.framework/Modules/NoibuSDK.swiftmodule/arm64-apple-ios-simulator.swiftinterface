@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NoibuSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NoibuSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import CryptoKit
 import Foundation
 import PhotosUI
@@ -31,17 +31,27 @@ import zlib
   @objc public func startSession()
   @objc public func endSession()
 }
+@_hasMissingDesignatedInitializers final public actor ImageStorageService {
+  public static let shared: NoibuSDK.ImageStorageService
+  final public func start() async
+  public static func start() async
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NoibuImageSaver : ObjectiveC.NSObject {
+  @objc public static func save(_ hash: Swift.String, _ data: Foundation.Data)
+  @objc deinit
+}
+public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector, new: ObjectiveC.Selector)
 @_inheritsConvenienceInitializers @objc(NoibuSessionReplayConfig) public class NoibuSessionReplayConfig : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
-public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector, new: ObjectiveC.Selector)
 @_inheritsConvenienceInitializers @objc public class NoibuImageHasher : ObjectiveC.NSObject {
   @objc public static func calculateHash(_ data: Foundation.Data) -> Swift.String
   @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NoibuImageSaver : ObjectiveC.NSObject {
-  @objc public static func save(_ hash: Swift.String, _ data: Foundation.Data)
   @objc deinit
 }
