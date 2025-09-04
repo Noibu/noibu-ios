@@ -281,6 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -308,7 +309,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NoibuSessionReplayConfig;
 SWIFT_CLASS_NAMED("NoibuConfig")
 @interface NoibuConfig : NSObject
-@property (nonatomic, copy) void (^ _Nullable onMobileEventTransformed)(NSString * _Nonnull);
+@property (nonatomic, copy) void (^ _Nullable onReactNativeCallback)(NSArray<NSDictionary<NSString *, id> *> * _Nonnull);
 @property (nonatomic) BOOL debug;
 @property (nonatomic, readonly, strong) NoibuSessionReplayConfig * _Nonnull sessionReplayConfig;
 - (nonnull instancetype)apiKey:(NSString * _Nonnull)apiKey OBJC_DESIGNATED_INITIALIZER SWIFT_METHOD_FAMILY(init);
@@ -638,6 +639,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -665,7 +667,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NoibuSessionReplayConfig;
 SWIFT_CLASS_NAMED("NoibuConfig")
 @interface NoibuConfig : NSObject
-@property (nonatomic, copy) void (^ _Nullable onMobileEventTransformed)(NSString * _Nonnull);
+@property (nonatomic, copy) void (^ _Nullable onReactNativeCallback)(NSArray<NSDictionary<NSString *, id> *> * _Nonnull);
 @property (nonatomic) BOOL debug;
 @property (nonatomic, readonly, strong) NoibuSessionReplayConfig * _Nonnull sessionReplayConfig;
 - (nonnull instancetype)apiKey:(NSString * _Nonnull)apiKey OBJC_DESIGNATED_INITIALIZER SWIFT_METHOD_FAMILY(init);

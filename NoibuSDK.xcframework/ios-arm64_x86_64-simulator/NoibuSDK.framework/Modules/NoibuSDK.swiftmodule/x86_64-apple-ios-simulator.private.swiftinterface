@@ -15,8 +15,18 @@ import _PhotosUI_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
+public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector, new: ObjectiveC.Selector)
+@_inheritsConvenienceInitializers @objc(NoibuSessionReplayConfig) public class NoibuSessionReplayConfig : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class NoibuImageHasher : ObjectiveC.NSObject {
+  @objc public static func calculateHash(_ data: Foundation.Data) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc(NoibuConfig) public class NoibuConfig : ObjectiveC.NSObject {
-  @objc public var onMobileEventTransformed: ((_ transformedProperties: Swift.String) -> Swift.Void)?
+  @objc public var onReactNativeCallback: ((_ mobileEvents: [[Swift.String : Any]]) -> Swift.Void)?
   @objc public var debug: Swift.Bool
   public static let host: Swift.String
   @objc final public let sessionReplayConfig: NoibuSDK.NoibuSessionReplayConfig
@@ -43,15 +53,5 @@ import zlib
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NoibuImageSaver : ObjectiveC.NSObject {
   @objc public static func save(_ hash: Swift.String, _ data: Foundation.Data)
-  @objc deinit
-}
-public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector, new: ObjectiveC.Selector)
-@_inheritsConvenienceInitializers @objc(NoibuSessionReplayConfig) public class NoibuSessionReplayConfig : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class NoibuImageHasher : ObjectiveC.NSObject {
-  @objc public static func calculateHash(_ data: Foundation.Data) -> Swift.String
-  @objc override dynamic public init()
   @objc deinit
 }
