@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NoibuSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import CryptoKit
 import Foundation
 import PhotosUI
@@ -14,30 +14,8 @@ import _Concurrency
 import _PhotosUI_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
+import _WebKit_SwiftUI
 import zlib
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NoibuImageSaver : ObjectiveC.NSObject {
-  @objc public static func save(_ hash: Swift.String, _ data: Foundation.Data)
-  @objc deinit
-}
-@objc(NoibuConfig) public class NoibuConfig : ObjectiveC.NSObject {
-  @objc public var onReactNativeCallback: ((_ mobileEvents: [[Swift.String : Any]]) -> Swift.Void)?
-  @objc public var debug: Swift.Bool
-  public static let host: Swift.String
-  @objc final public let sessionReplayConfig: NoibuSDK.NoibuSessionReplayConfig
-  @objc(apiKey:) public init(apiKey: Swift.String)
-  @objc(apiKey:host:) public init(apiKey: Swift.String, host: Swift.String = host)
-  @objc deinit
-}
-public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector, new: ObjectiveC.Selector)
-@_inheritsConvenienceInitializers @objc(NoibuSessionReplayConfig) public class NoibuSessionReplayConfig : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class NoibuImageHasher : ObjectiveC.NSObject {
-  @objc public static func calculateHash(_ data: Foundation.Data) -> Swift.String
-  @objc override dynamic public init()
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers final public actor ImageStorageService {
   public static let shared: NoibuSDK.ImageStorageService
   final public func start() async
@@ -48,10 +26,33 @@ public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector,
     get
   }
 }
+@objc(NoibuConfig) public class NoibuConfig : ObjectiveC.NSObject {
+  @objc public var onReactNativeCallback: ((_ mobileEvents: [[Swift.String : Any]]) -> Swift.Void)?
+  @objc public var debug: Swift.Bool
+  public static let host: Swift.String
+  @objc final public let sessionReplayConfig: NoibuSDK.NoibuSessionReplayConfig
+  @objc(apiKey:) public init(apiKey: Swift.String)
+  @objc(apiKey:host:) public init(apiKey: Swift.String, host: Swift.String = host)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(NoibuSDKManager) public class NoibuSDKManager : ObjectiveC.NSObject {
   @objc nonisolated(unsafe) public static let shared: NoibuSDK.NoibuSDKManager
   @objc deinit
   @objc public func setup(_ config: NoibuSDK.NoibuConfig)
   @objc public func startSession()
   @objc public func endSession()
+}
+@_inheritsConvenienceInitializers @objc(NoibuSessionReplayConfig) public class NoibuSessionReplayConfig : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public func mainSwizzle(forClass: Swift.AnyClass, original: ObjectiveC.Selector, new: ObjectiveC.Selector)
+@_inheritsConvenienceInitializers @objc public class NoibuImageHasher : ObjectiveC.NSObject {
+  @objc public static func calculateHash(_ data: Foundation.Data) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NoibuImageSaver : ObjectiveC.NSObject {
+  @objc public static func save(_ hash: Swift.String, _ data: Foundation.Data)
+  @objc deinit
 }
